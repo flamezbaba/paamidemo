@@ -230,9 +230,16 @@ const TopNav = () => {
   };
 
   useEffect(() => {
-    setTimeout(() => {
-      setShowPreloader(false);
-    }, 4000);
+    document.onreadystatechange = function () {
+      if (document.readyState === "complete") {
+        setTimeout(() => {
+          setShowPreloader(false);
+        }, 4000);
+      }
+    };
+    // setTimeout(() => {
+    //   setShowPreloader(false);
+    // }, 4000);
   });
 
   return (
