@@ -6,6 +6,8 @@
 ## Project Link
 https://paami-flamezbaba-27f877.netlify.app
 
+![screenshot](1.png)
+
 ## Authors
 
 - **Sangosanya Segun** - [Sangosanya Segun](https://github.com/flamezbaba)
